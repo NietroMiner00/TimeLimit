@@ -1,0 +1,15 @@
+name: TimeLimit
+version: 1
+description: Ein Zeitlimit kann festegelegt werden.
+author: NietroMiner00
+website: 
+
+main: de.timelimit.TimeLimit
+database: false
+
+commands:
+   timelimit:
+      description: Es kann ein Zeitlimit festgelegt werden.
+      usage: /timelimit [Anfangszeit] [Endzeit]
+      permission: timelimit.tl
+      permission-message: You don't have timelimit.tl
